@@ -4,10 +4,10 @@
 # Date Created : 30th Dec 2022, Friday
 
 # Build binary
-cc -std=c99 -Wall hello-world.c -o hello-world
+cc -std=c99 -Wall -ledit prompt.c -o prompt
 
 #Execute Binary
-./hello-world
+./prompt
 
 #Remove binary post execution
-rm hello-world
+rm prompt
