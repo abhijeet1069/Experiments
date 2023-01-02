@@ -4,10 +4,10 @@
 # Date Created : 30th Dec 2022, Friday
 
 # Build binary
-cc -std=c99 -Wall -ledit prompt.c -o prompt
+cc -std=c99 -Wall ../mpc/mpc.c parsing.c -ledit -lm -o parsing
 
 #Execute Binary
-./prompt
+./parsing
 
 #Remove binary post execution
-rm prompt
+rm parsing
