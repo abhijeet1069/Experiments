@@ -1,1 +1,0 @@
-Get Total CPU utilisation
