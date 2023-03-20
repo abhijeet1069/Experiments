@@ -1,6 +1,9 @@
 package dictionary;
 
-//will add meaning to words and create dictionary
+/**
+ In tries, we see that each unique path is a unique word. Here, we can't have a cycle.
+ For ex : 'DW' and 'CW'. Although, both words end with a common 'W', in trie both 'W' are different.
+ * */
 
 public class TrieNode {
     TrieNode[] children;
